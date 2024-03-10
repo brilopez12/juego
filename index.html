@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¿Quiere ser millonario?</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h1>¿Quiere ser millonario?</h1>
+    <div id="question-container">
+        <p id="question"></p>
+        <button onclick="answerQuestion(true)">Verdadero</button>
+        <button onclick="answerQuestion(false)">Falso</button>
+    </div>
+    <p>Puntos acumulados: <span id="points">0</span></p>
+    <p>Ayudas:
+        <button onclick="llamarAmigo()">Llamar a un amigo</button>
+        <button onclick="cincuentaCincuenta()">50-50</button>
+        <button onclick="ayudaPublico()">Ayuda al público</button>
+    </p>
+    <script src="app.js"></script>
+</body>
+</html>
